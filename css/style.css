@@ -30,8 +30,8 @@ nav a {
 }
 
 nav a:hover{
-    color: #c78c19;
     text-decoration: underline;
+    color: #c78c19;
 }
 
 
@@ -40,45 +40,57 @@ nav a:hover{
 	width:100%;
 }
 
- 
+
 .principal{
-	padding: 30px;
-	border: 2px solid #000000;
-	border-radius: 10px;
+	padding: 30px;	
 }
 
-.titulo{
-	text-align: center;
-	font-size: 22px;
+.titulo{    
+    text-align: center;
+	font-size: 28px;
 	font-weight: bold;
-	
+	padding: 10px;
 }
 
 .sobre{
 	text-align: center;
-	font-family:fantasy;
+	padding: 20px;
+    font-size: 18px;
 }
 
-#missao{
-	font-size: 20px;
+#missao{    
+	font-size: 22px;
 	font-weight: bold;
+    
 }
 
-strong{
+.sobre-missao{
+    text-align: left;
+    padding: 20px;
+}
+
+em strong{
 	color: #FF0000;
 }
 
 
 
-.beneficios {
-	font-size: 18px;
-	background: #858585;
-	padding: 20px;
-	font-size: 28px;
+.beneficios{
+    color: #000000;
+	font-size: 28px;	
+	padding: 20px;        
 }
 
-.itens {
+
+.itens {    
+    font-size: 22px;
 	font-style: italic;
+    list-style: circle;
+}
+
+.itens:hover{
+    color: #c78c19;
+
 }
 
 h2 {
@@ -97,7 +109,7 @@ h2 {
 
 .imagem-beneficios {
 	width: 60%;
-	padding: 20px;
+	padding: 20px ;
 }
 
 footer {
