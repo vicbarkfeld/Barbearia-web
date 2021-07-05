@@ -2,19 +2,44 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Home | Barbearia Alura</title>
+		<title>Home |Barbearia Alura</title>
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 		<header>
-			<h1 class="titulo-principal">Barbearia Alura</h1>
+			<div class="caixa">
+				<h1>
+					<img src="assets/img/logo.png" alt="Logo principal">
+				</h1>
+				<nav>
+					<ul>
+						<li>                        
+							<a href="index.html" target="_blank">
+								<img src="https://img.icons8.com/officel/40/000000/barber-pole.png"/>
+							Home</a>
+						</li>
+						<li>
+							<a href="produtos.html" target="_blank">
+								Produtos</a>
+						</li>
+						<li>
+							<a href="contatos.html" target="_blank"> Contatos
+							<img src="https://img.icons8.com/officel/40/000000/barber-pole.png"/>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<img id="banner" src="assets/img/banner.jpg">
+
+
+		<img id="banner" src="assets/img/banner.jpg.crdownload">
 		<div class="principal">
-			<h1>Sobre a Barbearia Alura</h1>
+			<h1 class="titulo">Sobre a Barbearia Alura</h1>
 	 
-			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+			<p class="sobre">Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
 			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
@@ -24,14 +49,19 @@
 		<div class="beneficios">
 			<h2>Benefícios</h2>
 
-			<ul>
+			<ul class="sobre-beneficios">
 				<li class="itens">Atendimento aos Clientes</li>
 				<li class="itens">Espaço diferenciado</li>
 				<li class="itens">Localização</li>
 				<li class="itens">Profissionais Qualificados</li>
 			</ul>
 
-			<img src="assets/img/beneficios.jpg" class="imagembeneficios">
+			<img src="assets/img/beneficios.jpg" class="imagem-beneficios">
 		</div>
 	</body>
+
+	<footer>
+        <img src="assets/img/logo-branco.png" alt="logo footer">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
 </html>
