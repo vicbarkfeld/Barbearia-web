@@ -1,7 +1,6 @@
 header {
     background-color: #858585;
-    padding: 20px 0;
-    
+    padding: 20px 0;    
 }
 
 .caixa {
@@ -33,13 +32,6 @@ nav a:hover{
     text-decoration: underline;
     color: #c78c19;
 }
-
-
-
-#banner {
-	width:100%;
-}
-
 
 .principal{
 	padding: 30px;	
@@ -73,14 +65,11 @@ em strong{
 	color: #FF0000;
 }
 
-
-
 .beneficios{
     color: #000000;
 	font-size: 28px;	
 	padding: 20px;        
 }
-
 
 .itens {    
     font-size: 22px;
@@ -122,3 +111,5 @@ footer {
     font-size: 13px;
     margin: 20px 0;
 }
+
+
