@@ -1,9 +1,17 @@
+:root{
+    --font: 'Comfortaa', cursive;
+    --primary-color: #000000;
+    --secundary-color: #858585;
+    --hover-color: #c78c19;
+    --active-color: #088C19;
+}
+
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font);
 }
 
 header {
-    background-color: #858585;
+    background-color: var(--secundary-color);
     padding: 20px 0;
        
 }
@@ -27,15 +35,19 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
 }
 
 nav a:hover{
-    color: #c78c19;
+    color: var(--hover-color);
     text-decoration: underline;
+}
+
+nav a:active{
+    color: var(--active-color);
 }
 
 #banner {
@@ -46,6 +58,7 @@ nav a:hover{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    column-count: auto;
     
 }
 
@@ -57,17 +70,17 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid var(--primary-color);
     border-radius: 100px;
     
 }
 
 .produtos li:hover {
-    border-color: #c78c19;
+    border-color: var(--hover-color);
 }
 
 .produtos li:active{
-    border-color: #088C19;
+    border-color: var(--active-color);
 }
 
 .produtos li:hover h2 {
